@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 app.get('/', function(req, res){
-    const { NAME } = `Tasos`;
+    const  NAME  = "Tasos";
     res.send(`Hello World! This is ${NAME}`);
 });
 
